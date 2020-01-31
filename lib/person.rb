@@ -1,6 +1,6 @@
 class Person
   #your code here
-  attr_accessor :name, :hair_color, :birthday, :weight, :eye_color, :height
+  attr_accessor :name, :hair_color, :birthday, :weight, :eye_color, :height, :handed
 
   def initialize(attributes)
     attributes.each do |key, value|
